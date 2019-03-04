@@ -106,7 +106,7 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "name": "springboot-sti:latest"
+                     "name": "s2i-java:latest"
                   }
                }
             },
