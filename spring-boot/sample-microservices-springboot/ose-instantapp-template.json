@@ -37,7 +37,7 @@
       {
          "description": "Git source URI for application",
          "name": "GIT_URI",
-         "value": "https://github.com/vladimirmezera/osev3-examples.git"
+         "value": "https://github.com/jorgemoralespou/osev3-examples.git"
       },
       {
          "description": "Git branch/tag reference",
@@ -106,7 +106,7 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "name": "s2i-java:latest"
+                     "name": "springboot-sti:latest"
                   }
                }
             },
@@ -157,7 +157,7 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "name": "s2i-java:latest"
+                     "name": "springboot-sti:latest"
                   }
                }
             },
